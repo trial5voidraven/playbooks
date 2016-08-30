@@ -2,5 +2,5 @@
 - hosts: web
   remote_user: centos
   roles:
-  - trial5voidraven.centos
-  - trial5voidraven.web
+  - trial5voidraven.role-centos
+  - trial5voidraven.role-web
