@@ -1,0 +1,6 @@
+---
+- hosts: web
+  remote_user: centos
+  roles:
+  - trial5voidraven.centos
+  - trial5voidraven.web
